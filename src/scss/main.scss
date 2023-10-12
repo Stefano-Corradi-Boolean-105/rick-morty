@@ -1,0 +1,27 @@
+
+@use './partials/vars' as *;
+
+
+@import 'bootstrap/scss/bootstrap';
+@import '@fontsource/montserrat';
+@import '@fontsource/montserrat/700.css';
+
+body{
+  font-family: $main-font;
+  color: $primary-color;
+  min-height: 100vh;
+  background-image: linear-gradient(
+    lighten($primary-color, 80%),
+    lighten($primary-color, 60%)
+  );
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  color: $primary-color;
+  font-weight: 700;
+}
